@@ -6,20 +6,20 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.EditText;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatEditText;
+import androidx.appcompat.widget.AppCompatTextView;
 import androidx.fragment.app.DialogFragment;
 
-public class MyCustomDialog extends DialogFragment {
-    private static final String TAG = "MyCustomDialog";
+public class MyDialogFragment extends DialogFragment {
+    private static final String TAG = "MyDialogFragment";
     public OnInputListener mListener;
 
     //widgets
-    private EditText mInput;
-    private TextView mActionOk, mActionCancel;
+    private AppCompatEditText mInput;
+    private AppCompatTextView mActionOk, mActionCancel;
 
     @Nullable
     @Override
