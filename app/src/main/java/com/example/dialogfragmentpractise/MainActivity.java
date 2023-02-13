@@ -40,7 +40,6 @@ public class MainActivity extends AppCompatActivity implements MyCustomDialog.On
     public void sendInput(String input) {
         Log.d(TAG, "sendInput: got the input: " + input);
 
-        // mInputDisplay.setText(input);
         mInput = input;
 
         setInputToTextView();
