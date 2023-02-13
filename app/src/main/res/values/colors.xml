@@ -7,4 +7,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Current opacity for following color = 45% i.e. in hex = 73 -->
+    <color name="dialog_background_film">#73000000</color>
 </resources>

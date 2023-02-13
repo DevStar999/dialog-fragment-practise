@@ -13,4 +13,13 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="CustomDialogTheme" parent="@android:style/Theme.Panel">
+        <item name="android:windowAnimationStyle">@style/CustomDialogAnimation</item>
+    </style>
+
+    <style name="CustomDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/open_dialog</item>
+        <item name="android:windowExitAnimation">@anim/close_dialog</item>
+    </style>
 </resources>
